@@ -14,7 +14,7 @@
 /*  -------------------------
    | Admin Route Section      |
     -------------------------
-*/  
+*/
 
 
 
@@ -31,11 +31,11 @@ Route::prefix('admin')->group(function(){
 Route::get('/bar','HomeController@barchart');
 
 
-	
+
 /*  -------------------------
    | User Route Section      |
     -------------------------
-*/ 
+*/
 
 
 Route::get('/','UController@index' );
